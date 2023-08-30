@@ -1,0 +1,42 @@
+
+
+.blog-section{
+    
+    h2{
+        line-height: 4.5rem;
+        letter-spacing: 0.5rem;
+    }
+    .blog-item{
+        figure{
+            overflow: hidden;
+            }
+            img{
+                transition:all 1s linear;
+                &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+    .blog-item-content{
+        background-color: $white;
+        padding: 22px 18px 57px;
+        position: relative;
+        z-index: 2;
+        margin-top: -7rem;
+        margin-right: 2.4rem;
+        margin-left: 2.4rem;
+        .blog-date{
+            font-family: $bodoni;
+            font-weight: $bodoni-light;
+            font-style: italic;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+        }
+        .blog-item-text{
+            line-height: 2.4rem;
+            height: 2*2.4rem;
+            overflow: hidden;
+        }
+    }
+
+}

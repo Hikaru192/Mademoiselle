@@ -1,0 +1,40 @@
+
+
+.lead-page-section{
+    padding: 218px 0 269px;
+    background-position: center center;
+    background-size: auto 100% ;
+    background-repeat: no-repeat ;
+    margin-bottom: 75px;
+
+
+    .lead-section-title{
+
+        color:$white;
+        font-size:5rem;
+        line-height:8.4rem;
+        letter-spacing: 0;
+        font-family:$bodoni;
+        font-weight:$bodoni-light;
+        text-align: center ;
+        max-width: 70.4rem;
+    }
+}
+
+@media(min-width:500px){
+     .lead-page-section{
+    .lead-section-title{
+        letter-spacing: 1rem;
+    }
+    }
+}
+
+
+@media(min-width:768px){
+    .lead-page-section{
+    .lead-section-title{
+        font-size:6rem;
+        letter-spacing: 2rem;
+    }
+    }
+}

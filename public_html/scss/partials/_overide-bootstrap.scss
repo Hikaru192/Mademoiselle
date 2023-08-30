@@ -1,2 +1,27 @@
+
+
 $font-size-base:  1.6rem;
 
+$gray-900: #1E1E1E;
+$gray-300: #ECD9D9;
+$navbar-light-color: $gray-900;
+$navbar-light-hover-color: none;
+$navbar-light-active-color: none;
+
+$grid-gutter-width:12px;
+$grid-breakpoints: (
+xs: 0,
+xm:500px,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px
+) ;
+
+$container-max-widths: (
+sm: 540px,
+xm:500px,
+md: 720px,
+lg: 960px,
+xl: 1140px
+) ;

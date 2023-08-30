@@ -1,0 +1,41 @@
+$team-border-color:$gray-300;
+.team{
+    padding:67px 0;
+    
+    .team-border{
+        padding: 54px 0;
+        border: 1px solid $team-border-color;
+    }
+    h2{
+        letter-spacing: 0.5rem;
+    }
+    .team-member-content{
+        .team-member-info{
+            font-weight: $font-weight-light;
+        }
+    .team-member-name{
+        font-family: $lato;
+        font-weight: $font-weight-normal;
+        
+        a{
+            text-decoration: none;
+            color:$gray-900;
+        }
+    }
+    }
+}
+
+.owl-theme .owl-dots .owl-dot span{
+width: 8px;
+height: 8px;
+margin-right: 9px;
+background: $team-border-color;
+}
+
+@media(min-width:1200px){
+.owl-theme .owl-dots {
+  position: absolute;
+  bottom: -3%;
+  right: 36%;
+}
+}
