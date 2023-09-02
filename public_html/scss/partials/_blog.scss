@@ -40,3 +40,20 @@
     }
 
 }
+
+//LEAD BLOG
+
+.lead-blog{
+    padding: 283px 0 263px;
+}
+
+//pagination
+.pagination{
+    margin-bottom: 6rem;
+    .page-link{
+        border: none;
+        margin-left: 10px;
+        font-family: $bodoni;
+        font-weight: $font-weight-light;
+    }
+}

@@ -7,6 +7,8 @@ $gray-300: #ECD9D9;
 $navbar-light-color: $gray-900;
 $navbar-light-hover-color: none;
 $navbar-light-active-color: none;
+$pagination-color:$gray-900;
+$pagination-hover-color:lighten($gray-900,10);
 
 $grid-gutter-width:12px;
 $grid-breakpoints: (
