@@ -10899,6 +10899,10 @@ header .navbar-brand img {
   }
 }
 
+.lead-services {
+  padding: 283px 0;
+}
+
 .team {
   padding: 67px 0;
 }
