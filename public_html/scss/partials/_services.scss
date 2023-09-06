@@ -31,12 +31,12 @@ $services-bg-dark:#ECD9D9;
             transform: scale(1.05);
         }
     }
-    .services-section-content{
+    
         .services-dark{
-            background-color: $services-bg-dark
+            background-color: $services-bg-dark;
         }
 
-    }
+  
 }
 @media(min-width:992px){
     .services-section{

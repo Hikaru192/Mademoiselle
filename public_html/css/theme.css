@@ -10853,9 +10853,72 @@ header .navbar-brand img {
 
 .pagination .page-link {
   border: none;
-  margin-left: 10px;
+  margin-left: 1rem;
   font-family: "Bodoni", sans-serif;
   font-weight: 300;
+}
+
+.blog-single {
+  padding: 50px 0 97px;
+}
+
+.blog-single .blog-single-header p {
+  font-family: "Bodoni", sans-serif;
+  font-weight: bold;
+  line-height: 1.7rem;
+}
+
+.blog-single .blog-single-header p .date {
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 1rem;
+}
+
+.blog-single .blog-single-header p .blog-single-header-content {
+  border-right: 1px solid black;
+  padding-right: 1rem;
+}
+
+.blog-single .blog-single-content {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 300;
+}
+
+.blog-single-main {
+  padding-bottom: 50px;
+}
+
+.blog-single-main p {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+}
+
+.blog-single-main p:nth-of-type(3) {
+  margin-bottom: 52px;
+}
+
+.blog-single-main figure {
+  margin-bottom: 52px;
+}
+
+.blog-single-main .news-tags {
+  font-family: "Bodoni", sans-serif;
+  font-weight: 300;
+}
+
+.blog-single-main .tags a {
+  margin-right: 10px;
+}
+
+@media (min-width: 1200px) {
+  .blog-single {
+    padding: 192px 0 97px;
+  }
+  .blog-single-main {
+    padding-bottom: 270px;
+  }
 }
 
 .services-section {
@@ -10895,7 +10958,7 @@ header .navbar-brand img {
   transform: scale(1.05);
 }
 
-.services-section .services-section-content .services-dark {
+.services-section .services-dark {
   background-color: #ECD9D9;
 }
 
