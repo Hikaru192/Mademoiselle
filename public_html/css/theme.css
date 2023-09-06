@@ -11059,4 +11059,16 @@ footer p {
   letter-spacing: -0.17px;
 }
 
+.error {
+  padding: 278px 0;
+}
+
+.error a {
+  padding: 15px 30px;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  border: 1px solid white;
+  letter-spacing: 0.5px;
+}
+
 /*# sourceMappingURL=theme.css.map */
