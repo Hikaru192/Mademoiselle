@@ -1,0 +1,67 @@
+
+.about-lead{
+    padding: 283px 0;
+    
+   
+}
+
+.about-main{
+    padding: 91px 0 143px;
+    h2{
+       font-size: 4.4rem;
+       line-height: 5rem;
+       font-family: $bodoni;
+       font-weight: $bodoni-light;
+       margin-bottom: 5rem;
+    }
+    p{
+        font-size: 2rem;
+        font-weight: $font-weight-light;
+        line-height: 2.8rem;
+        padding-bottom: 3rem;
+    }
+    img{
+        padding-bottom: 6rem;
+    }
+    
+     .search-container{
+        margin-bottom: 43px;
+        button{
+            border: none;
+            font-size: 20px;
+            top: 20px;
+            right: 22px;
+            background-color: transparent;
+            
+        }
+        
+    .search-box {
+            border: 1px solid $gray-900;
+           padding: 20px 22px;
+            width:100%;
+            font-size: 2rem;
+            
+           
+            
+        }
+    }
+    
+    .blog-section{
+        p{
+            font-weight: $font-weight-normal;
+            font-size: 16px;
+        }
+        .blog-item-content{
+            margin-top: -15rem;
+        }
+    }
+    ::placeholder {
+  color: $gray-900;
+  font-size: 2rem;
+  font-weight: $font-weight-light;
+  font-style: italic;
+  font-family:$bodoni; 
+  opacity: 1; /* Firefox */
+}
+}
+

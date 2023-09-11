@@ -48,6 +48,78 @@ $(document).ready(function(){
 
     animation();
     
+     if ($('.contact-form').length > 0) {
+        $('.contact-form').validate({
+            highlight: function (element) {
+                $(element).addClass('is-invalid').removeClass('is-valid');
+            },
+            unhighlight: function (element) {
+                $(element).addClass('is-valid').removeClass('is-invalid');
+            },
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 3
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                
+                subject:{
+                  required: true,
+                  minlength: 3
+                },
+                password: {
+                    required: true,
+                    minlength: 6
+                },
+                repassword: {
+                    required: true,
+                    minlength: 6,
+                    equalTo: '#password'
+                },
+                message: {
+                    required: true
+                },
+                city: {
+                    required: true
+                },
+
+                question1: {
+                    required: true
+                },
+                question2: {
+                    required: true
+                }
+            },
+
+            messages: {
+                name: {
+                    required: 'the Name field is required',
+                    minlength: 'the Name field should be min 3 charactes long'
+                }
+            },
+
+            errorElement: 'p',
+            errorPlacement: function (error, element) {
+                error.appendTo(element.closest(".form-group").find(".error-msg"));
+            }
+
+
+
+
+
+
+
+        });
+    }
+
+    
+    
+    
+        
+    
     
     
 });
